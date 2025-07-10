@@ -1,0 +1,94 @@
+.community-section {
+    padding-top: 100px;
+    position: relative;
+    width: 1400px;
+    height: 420px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+
+.community-section h2 {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.community-section h2 span {
+    color: #f7931e;
+    font-weight: 700;
+}
+
+.tab-menu {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.tab-menu button {
+    width: 100px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tab-menu button:hover {
+    background-color: #f7931e;
+    color: #fff;
+}
+
+.community-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 280px;
+    height: 200px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.card .date {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.card h3 {
+    position: absolute;
+    width: 220px;
+    font-weight: 600;
+    font-size: 18px;
+    top: 70px;
+    left: 20px;
+}
+
+.card .btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 14px;
+    background-color: #f7931e;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
